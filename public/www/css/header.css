@@ -1,0 +1,46 @@
+header {
+  background-color: #999;
+}
+header .inner {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 img {
+  height: 100%;
+}
+
+.header__nav ul {
+  display: flex;
+  gap: 22px;
+}
+.header__nav li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__nav li a {
+  padding: 14px;
+}
+.header__nav li:first-child {
+  border-bottom: 2px solid #999;
+}
+
+.header__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__icons li a {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.header__icons li img {
+  width: 24px;
+}
