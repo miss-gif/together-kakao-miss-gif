@@ -2,8 +2,6 @@
 
 ## 설치 라이브러리
 
-npm i sass
-npm i axios
-npm i react-router-dom
-
-## Test
+- npm i sass
+- npm i axios
+- npm i react-router-dom
