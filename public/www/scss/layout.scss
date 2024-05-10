@@ -1,0 +1,36 @@
+$size: 1120px;
+
+@mixin 작업영역 {
+  box-shadow: inset 0 0 10px red;
+}
+
+body {
+  background-color: #eee;
+}
+
+header {
+  display: block;
+  height: 70px;
+  margin-bottom: 30px;
+}
+
+.inner {
+  width: 1120px;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  @include 작업영역;
+}
+
+ul {
+  display: flex;
+}
+.contents__left {
+  width: 700px;
+  @include 작업영역;
+}
+
+main {
+  margin-bottom: 75px;
+}
